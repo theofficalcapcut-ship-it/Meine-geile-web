@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meine Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Willkommen auf meiner Website!</h1>
+    </header>
+
+    <div class="content">
+        <h2>About Me</h2>
+        <p>Dies ist meine erste GitHub-Pages Website, komplett über Termux erstellt.</p>
+
+        <h2>Was ich hier mache</h2>
+        <ul>
+            <li>Eigene Projekte vorstellen</li>
+            <li>Webseiten testen</li>
+            <li>Infos veröffentlichen</li>
+        </ul>
+
+        <p>Du kannst diesen Text beliebig ändern.</p>
+    </div>
+
+    <footer>
+        © 2025 – Meine Website
+    </footer>
+</body>
+</html>
